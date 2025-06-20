@@ -2,17 +2,27 @@
   "name": "langchainjs-project",
   "version": "1.0.0",
   "description": "```bash npm init -y",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@langchain/anthropic": "^0.3.22",
-    "@langchain/core": "^0.3.59",
+    "@langchain/core": "^0.3.60",
+    "@langchain/langgraph": "^0.3.4",
     "@langchain/openai": "^0.5.13",
-    "langchain": "^0.3.28"
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.28",
+    "three": "^0.177.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
   }
 }
